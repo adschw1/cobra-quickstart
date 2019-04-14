@@ -3,6 +3,7 @@ Cisco ACI Python Quick Start Guide
 
 This is a quick start guide to working with Cisco ACI using the Python Cobra SDK.
 
+**NOTE: This works best on Mac or Linux. I would recommend using a Ubuntu/CentOS/Fedora VirtualBox if using Windows**
 
 .. contents::
 
