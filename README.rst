@@ -248,6 +248,13 @@ Configure Tenant example script
   import cobra.model.fv
   from credentials import *
 
+  TENANT = #INITIALS_Cobra_TENANT
+  VRF = #INTIIALS_Cobra_VRF
+  BRIDGEDOMAIN = #INTIIALS_Cobra_BRDM
+  GATEWAY = #INTIIALS_Cobra_GATE
+  SCOPE = #INTIIALS_Cobra_SCOPE
+  SUBNETNAME = #INTIIALS_Cobra_SUBNET
+
   # create a session and define the root
   requests.packages.urllib3.disable_warnings()
   auth = cobra.mit.session.LoginSession(URL, LOGIN, PASSWORD)
